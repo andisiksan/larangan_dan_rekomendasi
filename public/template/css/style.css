@@ -1,0 +1,77 @@
+:root {
+  -webkit-color-primary: #3B82F6;
+  -webkit-color-dark: #193766;
+  -webkit-color-muted: #697B98;
+  -webkit-color-light-muted: #FFFFFF;
+}
+
+
+body {
+  background: linear-gradient(#3B82F6, #93b6f3, #3B82F6);
+  /* background-color: #3B82F6; */
+  color: #697B98;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+
+nav .container a {
+  color: #FFFFFF;
+}
+
+nav .container a:hover {
+  color: #3B82F6;
+}
+
+
+section {
+  /* background-image: url(/img/background.png); */
+  height: 100vh;
+  /* background-color: rgb(57, 57, 160); */
+  display: grid;
+}
+
+#main .main_text {
+  color: #FFFFFF;
+}
+
+#main .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+
+#gambar_utama {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 800;
+}
+
+img:hover {
+  background-color: #FFFFFF;
+}
+
+#kategori {
+  overflow: hidden;
+}
+
+#kategori .card {
+  /* max-height: 300px; */
+  overflow: hidden;
+}
+
+#kategori .card-header {
+  background-color: #193766;
+  color: #FFFFFF;
+}
+
+
+#about {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* media screen responsiv */
+@media screen and (max-width: 768) {}
